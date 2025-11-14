@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/vazir.woff2") format("woff2"),
+       url("/fonts/vazir.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+:root {
+  font-family: "vazir" , sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html {
+  direction: rtl;
+}
+
+
