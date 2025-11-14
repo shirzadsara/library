@@ -16,7 +16,7 @@ export const HeroSlider: React.FC = () => {
     speed: 500,
     autoplay: true,
     autoplaySpeed: 2500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       { breakpoint: 1280, settings: { slidesToShow: 3 } },
